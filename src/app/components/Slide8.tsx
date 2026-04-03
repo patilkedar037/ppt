@@ -13,7 +13,7 @@ export function Slide8() {
       {/* Guest Lecture Image */}
       <div className="flex-1 flex items-center justify-center">
         <ImageWithFallback 
-          src="/src/imports/ChatGPT_Image_Apr_2,_2026,_04_59_59_PM.png" 
+          src="/src/imports/guest.png" 
           alt="Guest Lecture Speakers"
           className="max-w-full max-h-full object-contain rounded-2xl shadow-lg"
         />
