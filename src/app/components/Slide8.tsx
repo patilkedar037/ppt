@@ -13,7 +13,7 @@ export function Slide8() {
       {/* Guest Lecture Image */}
       <div className="flex-1 flex items-center justify-center">
         <ImageWithFallback 
-          src="/src/imports/guest.png" 
+          src="https://drive.google.com/file/d/1ZB2jVVaI7ormS5tqHbEWwaGT12w3JjSc/view?usp=sharing" 
           alt="Guest Lecture Speakers"
           className="max-w-full max-h-full object-contain rounded-2xl shadow-lg"
         />
