@@ -1,3 +1,4 @@
+import guestImage from '../../imports/guest2.png';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function Slide8() {
@@ -12,11 +13,13 @@ export function Slide8() {
 
       {/* Guest Lecture Image */}
       <div className="flex-1 flex items-center justify-center">
-        <ImageWithFallback 
-          src="https://drive.google.com/file/d/1ZB2jVVaI7ormS5tqHbEWwaGT12w3JjSc/view?usp=sharing" 
-          alt="Guest Lecture Speakers"
-          className="max-w-full max-h-full object-contain rounded-2xl shadow-lg"
-        />
+        <a href="https://drive.google.com/file/d/1ZB2jVVaI7ormS5tqHbEWwaGT12w3JjSc/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="max-w-full max-h-full flex items-center justify-center">
+          <ImageWithFallback 
+            src={guestImage} 
+            alt="Guest Lecture Speakers"
+            className="max-w-full max-h-full object-contain rounded-2xl shadow-lg hover:scale-[1.02] transition-transform cursor-pointer"
+          />
+        </a>
       </div>
 
       {/* UpGrad Branding */}
